@@ -31,12 +31,119 @@
             <p>am 20.12.2018</p>
         </section>
         <section>
+            <h2>Mein Lebensweg</h2>
+            <p class="fragment">Mein Tipp: Mach was zu dir passt!</p>
+        </section>
+        <section>
             <h3>Was mache ich?</h3>
             <p class="fragment">Die Programme schreiben, die hier jeder am PC oder Handy nutzt.</p>
         </section>
         <section>
-            <h2>Mein Lebensweg</h2>
+            <h3>Konkret</h3>
+            <p>Nur zwei Sachen, die man tatsächlich macht, diese verändern sich jedoch konstant</p>
+            <ul>
+                <li class="fragment">Vorträge halten (optional)</li>
+                <li class="fragment">Programmieren</li>
+                <ul>
+                    <li class="fragment">Code schreiben</li>
+                    <li class="fragment">Testen</li>
+                    <li class="fragment">Bugs fixen</li>
+                    <li class="fragment">Viel Googlen!</li>
+                </ul>
+            </ul>
         </section>
+        <section><img src="images/Programmer-Humor.jpg"/></section>
+        <section>
+            <h3>Beispiele für Spezialisierungen</h3>
+            <ul>
+                <li class="fragment">Frontend Entwickler</li>
+                <li class="fragment">Backend Entwickler</li>
+                <li class="fragment">Full-Stack Entwickler</li>
+                <li class="fragment">App Entwickler</li>
+                <li class="fragment">Data Scientist</li>
+                <li class="fragment">Consultant</li>
+            </ul>
+            <h3 class="fragment">Nur für die wenigsten Dinge braucht man Mathematik!</h3>
+        </section>
+        <section>
+            <h2>Frage:</h2>
+            <p>Wie lange braucht man, um seine erste Programmiersprache zu lernen, wie lange für die zweite?</p>
+        </section>
+        <section>
+            <h3>Grundfakten zum Beruf</h3>
+            <ul>
+                <li class="fragment">Gehalt überdurchschnittlich</li>
+                <li class="fragment">Jobchancen gut</li>
+                <li class="fragment">Kein "dress code" (außer beim Consulting)</li>
+                <li class="fragment">Häufig flexible Arbeitszeiten</li>
+                <li class="fragment">Viel sitzen vorm PC</li>
+                <li class="fragment">Eigeninitiative häufig sinnvoll/nötig</li>
+                <li class="fragment">Abitur häufig nötig</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Meine Ausbildung</h2>
+            <ul>
+                <li class="fragment">Eigenständiges lernen</li>
+                <li class="fragment">Eigenes Projekt (Spiel)</li>
+                <li class="fragment">Einsatz in produktiven Projekten</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Warum diese Ausbildung?</h2>
+            <ul>
+                <li class="fragment">Häufig angenehmens Umfeld</li>
+                <li class="fragment">Flexible Arbeitszeiten</li>
+                <li class="fragment">Gelerntes kann privat eingesetzt werden</li>
+            </ul>
+            <h2 class="fragment">Warum nicht?</h2>
+            <ul>
+                <li class="fragment">Für Familie und Freunde muss man als IT-Support arbeiten</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Aufgabe</h2>
+            <p>Erstelle eine Funktion in Python die die Fakultät einer beliebigen (positiven) Zahl zurückgibt.</p>
+        </section>
+        <section>
+            <h2>Fakultät</h2>
+            <p>Zitat Wikipedia: "Die Fakultät ist in der Mathematik eine Funktion, die einer natürlichen Zahl das
+                Produkt aller natürlichen Zahlen (ohne Null) kleiner und gleich dieser Zahl zuordnet. Sie wird durch ein
+                dem Argument nachgestelltes Ausrufezeichen („!“) abgekürzt."</p>
+            <pre><code>
+                1! = 1
+                2! = 2 x 1 = 2
+                3! = 3 x 2 x 1 = 6
+                4! = 4 x 3 x 2 x 1 = 24
+            </code></pre>
+        </section>
+        <section>
+            <h2>Was ist Rekursion?</h2>
+            <img src="images/rekursion.png" class="fragment"/>
+            <p class="fragment">In der Informatik ist eine Funktion, die sich selbst aufruft rekursiv.</p>
+            <p class="fragment">Löse die Aufgabe mit Rekursion</p>
+        </section>
+        <section>
+            <p class="fragment">Funktioniert dieser Code?</p>
+            <pre><code>
+                def fakultaet(x):
+                    return x * fakultaet(x - 1)
+            </code></pre>
+        </section>
+        <section>
+            <h2>Lösung:</h2>
+            <pre><code>
+                def fakultaet(x):
+                    if x < 1:
+                        return x * fakultaet(x - 1)
+                else:
+                    return 0
+            </code></pre>
+        </section>
+        <section>
+            <img src="images/compiling.png"/>
+        </section>
+        <section><h2>Vielen Dank für die Aufmerksamkeit!</h2></section>
     </div>
 </div>
 
