@@ -1,1 +1,1 @@
-Link zur Präsentation: https://juligreen.github.io/AzubiScoutsPraesentation/
+Link zur Präsentation: http://juliusdehner.site
