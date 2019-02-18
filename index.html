@@ -140,7 +140,7 @@
             </code></pre>
         </section>
         <section>
-            <img src="images/compiling.png"/>
+            <img src="images/compiling.png" width="70%"/>
         </section>
         <section data-background-image="images/iS2-Gebaeude.jpg">
             <h2 class="black-outline">Mein Arbeitgeber:</h2>
@@ -149,7 +149,8 @@
             <ul>
                 <li class="black-outline">Marzling</li>
                 <li class="black-outline">München</li>
-            </ul><br>
+            </ul>
+            <br>
             <a href="www.is2.de" class="black-outline">www.is2.de</a>
         </section>
         <section>
@@ -160,9 +161,11 @@
         <section>
             <h3>Selbst Lernen:</h3>
             <ul>
-            <li><a href="https://automatetheboringstuff.com/">Automatisierung mit Python (kostenlos)</a></li>
-            <li><a href="https://realpython.com/products/python-basics-book/">Eine praktische einführung in Python (30$)</a></li>
-            <li><a href="http://openbook.rheinwerk-verlag.de/javainsel/">Java ist auch eine Insel (kostenlos)</a></li>
+                <li><a href="https://automatetheboringstuff.com/">Automatisierung mit Python (kostenlos)</a></li>
+                <li><a href="https://realpython.com/products/python-basics-book/">Eine praktische einführung in Python
+                    (30$)</a></li>
+                <li><a href="http://openbook.rheinwerk-verlag.de/javainsel/">Java ist auch eine Insel (kostenlos)</a>
+                </li>
             </ul>
         </section>
         <section><h2>Vielen Dank für die Aufmerksamkeit!</h2></section>
@@ -177,17 +180,27 @@
     // - https://github.com/hakimel/reveal.js#configuration
     // - https://github.com/hakimel/reveal.js#dependencies
     Reveal.initialize({
+        overview: true,
         dependencies: [
+            {src: 'plugin/reveal.js-menu/menu.js'},
             {src: 'plugin/markdown/marked.js'},
             {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/zoom-js/zoom.js'},
+            {src: 'plugin/print-pdf/print-pdf.js'},
+            {src: 'plugin/search/search.js', async: true},
             {src: 'plugin/notes/notes.js', async: true},
             {
                 src: 'plugin/highlight/highlight.js', async: true, callback: function () {
                     hljs.initHighlightingOnLoad();
                 }
             }
-        ]
-    });
+        ],
+        menu: {
+            themes: true,
+
+        }
+    })
+    ;
 </script>
 </body>
 </html>
